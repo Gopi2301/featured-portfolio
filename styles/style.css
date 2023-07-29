@@ -1,0 +1,35 @@
+:root {
+  --clr-dark: ;
+  --clr-light: ;
+  --clr-dark: ;
+  --clr-dark: ;
+  --clr-dark: ;
+  --clr-dark: ;
+  --clr-dark: ;
+}
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "General Sans", sans-serif;
+}
+img,
+picture,
+video,
+svg,
+canvas {
+  display: block;
+  max-width: 100%;
+  user-selectn: none;
+}
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
