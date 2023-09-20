@@ -54,6 +54,9 @@
   .header__resume {
     font-size: var(--size-xs);
   }
+  .header__resume > a {
+    color: white;
+  }
   .header__bar {
     display: none;
   }
